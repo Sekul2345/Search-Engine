@@ -49,7 +49,6 @@ form button{
     padding: 0 40px;
     height:100%;
     background: rgb(3, 48, 19);
-    opacity:.5;
     color: #fff;
     font-size:18px;
     border:0;
@@ -92,6 +91,13 @@ form button:hover{
 @media (max-width: 768px) { /* Target screens 768px wide or smaller */
     #search-result{
         grid-template-columns: 1fr; /* Change to 1 column */
+    }
+}
+@media (max-width:465px) {
+    body{
+        background:rgb(202, 224, 182);
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
 
